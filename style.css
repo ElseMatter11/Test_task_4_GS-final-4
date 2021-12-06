@@ -13,7 +13,6 @@
   src: url(fonts/Formular.ttf);
   font-weight: 400;
 }
-*{outline: 1px solid red;}
 /* main rules */
 @media screen and (min-width: 321px) {
   .container {
