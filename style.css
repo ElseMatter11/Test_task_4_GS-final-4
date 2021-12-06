@@ -1,0 +1,793 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Rubik;
+  src: url(fonts/Rubik-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Formular;
+  src: url(fonts/Formular.ttf);
+  font-weight: 400;
+}
+/* main rules */
+@media screen and (min-width: 321px){
+.container {
+  width: 83%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body {
+  background-color: #fff;
+  display: block;
+}
+/* heder */
+.list-of-vac {
+  position: absolute;
+  width: 476;
+  height: 76px;
+  left: 123px;
+  top: 81px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 76px;
+
+  color: #000000;
+}
+.serch-bar {
+  position: absolute;
+  width: 1196px;
+  left: 122px;
+  height: 80px;
+  top: 231px;
+
+  /* White */
+
+  background: #ffffff;
+  display: flex;
+}
+.form-wrp {
+  display: block;
+  margin-bottom: 6px;
+}
+.form {
+  /* position: relative;
+height: 29px;
+left: 0px;
+right: 0px;
+top: 0px; */
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  width: 466px;
+  height: 29px;
+
+  /* Black */
+
+  color: #000000;
+}
+.position-wrp {
+  position: absolute;
+  display: block;
+  left: 485px;
+}
+.position {
+  /* position: reletive;
+height: 29px;
+left: 0px;
+right: 0px;
+top: 0px; */
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+  width: 468px;
+  height: 29px;
+  margin-bottom: 0;
+}
+.light-rub.ns {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  width: 421px;
+  height: 29px;
+
+  color: #a3a6a9;
+}
+.light-rub {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  width: 423px;
+  height: 29px;
+
+  color: #a3a6a9;
+}
+.triangle {
+  position: relative;
+  left: 345px;
+}
+
+.light-rub.ns::after {
+  content: "";
+  display: block;
+  width: 466px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  left: 0%;
+  margin: 7px 0;
+}
+.light-rub::after {
+  content: "";
+  display: block;
+  width: 468px;
+  height: 1px;
+  background-color: black;
+  left: 0%;
+  margin: 7px 0;
+}
+.conect {
+  display: flex;
+  position: relative;
+  align-items: center;
+  left: 588px;
+  bottom: 42px;
+}
+.clear {
+  width: 99px;
+  height: 26px;
+  font-family: Formular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  text-align: right;
+
+  /* Grey */
+
+  color: #a3a6a9;
+}
+.cross {
+  width: 12px;
+  height: 12px;
+  margin-left: 16px;
+}
+
+/* vacancies */
+.inf-ab-vacance {
+  position: absolute;
+  width: 1196px;
+  height: 568px;
+  left: 122px;
+  top: 343px;
+  border: 1px solid black;
+}
+.logo-img {
+  position: absolute;
+  width: 373px;
+  height: 95px;
+  left: 0px;
+  top: 0px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: url(img/image\ 1.svg);
+}
+.vacance-header {
+  position: absolute;
+  width: auto;
+  height: 51px;
+  left: 486px;
+  top: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 160%;
+  /* or 51px */
+
+  color: #000000;
+}
+
+.Form {
+  position: absolute;
+  width: 43px;
+  height: 22px;
+  left: 20px;
+  top: 172px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* Dark grey */
+
+  color: #545454;
+}
+.Company {
+  position: absolute;
+  width: 75px;
+  height: 22px;
+  left: 20px;
+  top: 211px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* Dark grey */
+
+  color: #545454;
+}
+.Web {
+  position: absolute;
+  width: 36px;
+  height: 22px;
+  left: 20px;
+  top: 250px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* Dark grey */
+
+  color: #545454;
+}
+.Adress {
+  position: absolute;
+  width: 65px;
+  height: 22px;
+  left: 20px;
+  top: 289px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* Dark grey */
+
+  color: #545454;
+}
+.Type-of-work {
+  position: absolute;
+  width: 301px;
+  height: 22px;
+  left: 68px;
+  top: 172px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  color: #000000;
+}
+.Company-name{
+  position: absolute;
+width: 360px;
+height: 22px;
+left: 100px;
+top: 211px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+
+}
+.Web-name{
+  position: absolute;
+width: 399px;
+height: 22px;
+left: 61px;
+top: 250px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+
+}
+.Company-adress{
+  position: absolute;
+  width: 274px;
+  height: 22px;
+  left: 90px;
+  top: 289px;
+  
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  
+  
+  color: #000000;
+  
+
+}
+.vacance-need{
+  position: absolute;
+width: 689px;
+height: 66px;
+left: 486px;
+top: 79px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+}
+.snapshot{
+  position: absolute;
+width: 487px;
+height: 22px;
+left: 486px;
+top: 161px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+
+}
+.abilities{
+list-style:disc; 
+}
+.develope{
+  position: absolute;
+width: 677px;
+height: 44px;
+left: 498px;
+top: 191px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+
+}
+.closely{
+  position: absolute;
+  width: 677px;
+  height: 22px;
+  left: 498px;
+  top: 251px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  
+  
+  color: #000000;
+}
+.proud{
+  position: absolute;
+width: 510px;
+height: 22px;
+left: 498px;
+top: 289px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+}
+.vacance-need-ex{
+  position: absolute;
+width: 689px;
+height: 66px;
+left: 486px;
+top: 327px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+
+}
+.develope-p{
+  position: absolute;
+width: 677px;
+height: 44px;
+left: 498px;
+top: 401px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+
+}
+.closely-p{
+  position: absolute;
+width: 677px;
+height: 22px;
+left: 498px;
+top: 461px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+}
+.proud-p{
+  position: absolute;
+width: 510px;
+height: 22px;
+left: 498px;
+top: 499px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+}
+.close{
+  position: absolute;
+width: 149px;
+height: 22px;
+left: 756px;
+top: 529px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-align: center;
+
+color: #A3A6A9;
+}
+.inf-ab-vacance-2{
+  position: absolute;
+width: 1196px;
+height: 331px;
+left: 122px;
+top: 935px;
+
+/* White */
+
+background: #FFFFFF;
+/* Black */
+
+border: 1px solid #000000;
+box-sizing: border-box;
+
+}
+.logo-img-2{
+  position: absolute;
+width: 373px;
+height: 95px;
+left: 0px;
+top: 0px;
+margin-left: 20px;
+  margin-top: 20px;
+
+background: url(img/image\ 1\ \(1\).svg);
+}
+.more{
+  position: absolute;
+width: 149px;
+height: 22px;
+left: 751px;
+top: 291px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-align: center;
+
+color: #A3A6A9;
+}
+.gradient{
+  position: absolute;
+width: 698px;
+height: 59px;
+left: 477px;
+top: 250px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) -59.32%, #FFFFFF 42.84%);
+
+}
+.inf-ab-vacance-3{
+  position: absolute;
+  width: 1196px;
+  height: 331px;
+  left: 122px;
+  top: 1290px;
+  
+  /* White */
+  
+  background: #FFFFFF;
+  /* Black */
+  
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.logo-img-3{
+  position: absolute;
+  width: 373px;
+  height: 95px;
+  left: 0px;
+  top: 0px;
+  margin-left: 20px;
+  margin-top: 20px;
+  
+  background: url(img/image\ 1\ \(2\).svg);
+}
+/* fotter rules */
+.footer-wrp{
+  position: absolute;
+width: 1182px;
+height: 694px;
+left: 122px;
+top: 1711px;
+
+}
+.req{
+  width: 473px;
+  height: 76px;
+  
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 76px;
+  /* identical to box height */
+  
+  
+  /* Black */
+  
+  color: #000000;
+  
+}
+.footer-content{
+  margin-top: 74px;
+  width: 1182px;
+  height: 684px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.forma{
+  width: 438px;
+height: 469px;
+display: block;
+}
+.light-rub-mod{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  width: 290px;
+  height: 29px;
+
+  color: #a3a6a9;
+}
+.light-rub-mod::after {
+  content: "";
+  display: block;
+  width: 438px;
+  height: 1px;
+  background-color: black;
+  left: 0%;
+  margin: 7px 0;
+}
+.bl{
+width: 147px;
+height: 29px;
+
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* Black */
+
+color: #000000;
+
+}
+.user-email,.user-phone-number,.comment{
+  margin-top: 36px;
+}
+.send-form{
+  margin-top: 40px;
+ height: 48px;
+ width:226px;
+background-color:black;
+color: white;
+}
+.aside{
+  width: 452px;
+  height: 346px;
+
+}
+.advise{
+  width: 402px;
+height: 59px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+margin-bottom: 74px;
+
+/* Black */
+
+color: #000000;
+
+}
+.phone-num{
+width: 451px;
+height: 43px;
+margin-bottom: -1px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 24px;
+/* or 75% */
+
+
+/* Black */
+
+color: #000000;
+
+}
+.mail-scale{
+width: 451px;
+height: 45px;
+
+margin-bottom: 78px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 32px;
+/* or 100% */
+
+
+/* Black */
+
+color: #000000;
+
+}
+.place{
+width: 390px;
+height: 58px;
+
+margin-bottom: -6px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* Black */
+
+color: #000000;
+
+}
+.h-2-g{
+width: 197px;
+height: 16px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* Black */
+
+color: #000000;
+
+}
+}
