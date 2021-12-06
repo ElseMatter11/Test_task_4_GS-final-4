@@ -13,11 +13,11 @@
   src: url(fonts/Formular.ttf);
   font-weight: 400;
 }
+*{outline: 1px solid red;}
 /* main rules */
 @media screen and (min-width: 321px) {
   .container {
-    width: 83%;
-    max-width: 1200px;
+    width: 1196px;
     margin: 0 auto;
   }
   body {
@@ -148,7 +148,9 @@ top: 0px; */
     display: flex;
     position: relative;
     align-items: center;
-    left: 588px;
+    width:128px;
+    top: -22px;
+    left: 583px;
     bottom: 42px;
   }
   .clear {
