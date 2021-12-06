@@ -761,7 +761,8 @@ top: 0px; */
     color: #000000;
   }
 }
-@media screen and (max-width: 320px) {
+/*  
+@media screen and (max-width: 320px) { 
   .container {
     width: 272 px;
     margin: 0 auto;
@@ -769,9 +770,9 @@ top: 0px; */
   body {
     background-color: #fff;
     display: block;
-  }
+   } */
   /* heder */
-  .list-of-vac {
+  /* .list-of-vac { 
     position: absolute;
     width: 249px;
     height: 38px;
@@ -783,9 +784,9 @@ top: 0px; */
     font-weight: normal;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
 
-    /* Black */
+
+
 
     color: #000000;
   }
@@ -796,11 +797,11 @@ top: 0px; */
     left: 24px;
     top: 151px;
 
-    /* White */
+    
 
     background: #ffffff;
 
-    /* White */
+
 
     background: #ffffff;
     display: block;
@@ -810,7 +811,7 @@ top: 0px; */
     padding-top: ;
     :6px ;
   } */
-  .form {
+  /* .form {
     position: absolute;
     height: 29px;
     left: 0px;
@@ -822,9 +823,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-    /* or 26px */
-
-    /* Black */
+    
 
     color: #000000;
   }
@@ -841,9 +840,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-    /* or 26px */
-
-    /* Black */
+    
 
     color: #000000;
   }
@@ -859,9 +856,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-    /* or 26px */
-
-    /* Grey */
+  
 
     color: #a3a6a9;
   }
@@ -873,9 +868,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-    /* or 26px */
-
-    /* Grey */
+  
 
     color: #a3a6a9;
   }
@@ -906,10 +899,7 @@ top: 0px; */
     left: 0%;
     margin: 7px 0;
   }
-  /* .conect {
-    display: flex;
-   
-  } */
+
   .clear {
     position: absolute;
     width: 99px;
@@ -922,11 +912,11 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-    /* identical to box height, or 26px */
+  
 
     text-align: right;
 
-    /* Grey */
+
 
     color: #a3a6a9;
   }
@@ -938,7 +928,7 @@ top: 0px; */
     top: 182px;
   }
 
-  /* vacancies */
+  
   .inf-ab-vacance {
     position: absolute;
     width: 272px;
@@ -969,7 +959,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 22px;
     line-height: 160%;
-    /* or 35px */
+  
 
     color: #000000;
   }
@@ -986,9 +976,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
-
-    /* Dark grey */
+ 
 
     color: #545454;
   }
@@ -1004,10 +992,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
-
-    /* Dark grey */
-
+  
     color: #545454;
   }
   .Web {
@@ -1022,9 +1007,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
-
-    /* Dark grey */
+ 
 
     color: #545454;
   }
@@ -1040,9 +1023,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
-
-    /* Dark grey */
+    
 
     color: #545454;
 
@@ -1060,7 +1041,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+    
 
     color: #000000;
   }
@@ -1076,7 +1057,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+ 
 
     color: #000000;
   }
@@ -1092,7 +1073,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+ 
 
     color: #000000;
   }
@@ -1108,7 +1089,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+
 
     color: #000000;
   }
@@ -1124,7 +1105,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+
 
     color: #000000;
   }
@@ -1140,7 +1121,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+
 
     color: #000000;
   }
@@ -1159,7 +1140,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+
 
     color: #000000;
   }
@@ -1175,7 +1156,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+
 
     color: #000000;
   }
@@ -1191,7 +1172,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+
 
     color: #000000;
   }
@@ -1207,8 +1188,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
-
+    
     color: #000000;
   }
   .develope-p {
@@ -1223,7 +1203,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+
 
     color: #000000;
   }
@@ -1239,7 +1219,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+ 
 
     color: #000000;
   }
@@ -1255,7 +1235,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+
 
     color: #000000;
   }
@@ -1271,7 +1251,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+   
 
     text-align: center;
 
@@ -1284,10 +1264,10 @@ top: 0px; */
     left: 24px;
     top: 1742px;
 
-    /* White */
+   
 
     background: #ffffff;
-    /* Black */
+
 
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -1315,7 +1295,7 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    /* or 22px */
+
 
     text-align: center;
 
@@ -1341,10 +1321,10 @@ height: 728px;
 left: 24px;
 top: 2486px;
 
-/* White */
+
 
 background: #FFFFFF;
-/* Black */
+
 
 border: 1px solid #000000;
 box-sizing: border-box;
@@ -1360,7 +1340,7 @@ box-sizing: border-box;
 
     background: url(img/image\ 3.img);
   }
-  /* fotter rules */
+
   .footer-wrp {
     position: absolute;
 height: 935px;
@@ -1380,10 +1360,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 32px;
 line-height: 38px;
-/* identical to box height */
 
-
-/* Black */
 
 color: #000000;
 
@@ -1429,9 +1406,7 @@ height: 544px;
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-    /* or 26px */
-
-    /* Black */
+    
 
     color: #000000;
   }
@@ -1461,10 +1436,10 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 160%;
-/* or 29px */
 
 
-/* Black */
+
+
 
 color: #000000;
   }
@@ -1478,9 +1453,7 @@ color: #000000;
     font-weight: normal;
     font-size: 22px;
     line-height: 24px;
-    /* or 75% */
-
-    /* Black */
+    
 
     color: #000000;
   }
@@ -1494,9 +1467,7 @@ color: #000000;
     font-weight: normal;
     font-size: 22px;
     line-height: 24px;
-    /* or 100% */
-
-    /* Black */
+  
 
     color: #000000;
   }
@@ -1510,9 +1481,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 160%;
-    /* or 26px */
-
-    /* Black */
+    
 
     color: #000000;
   }
@@ -1525,13 +1494,11 @@ line-height: 160%;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
-
-    /* Black */
+    
 
     color: #000000;
   }
 .closely.hiden{
   display: none;
 }
-}
+} */
