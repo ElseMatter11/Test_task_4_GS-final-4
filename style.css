@@ -531,11 +531,14 @@ top: 0px; */
     height: 95px;
     left: 0px;
     top: 0px;
+    background: url(img/image\ 2.svg);
+    
     margin-left: 20px;
     margin-top: 20px;
 
-    background: url(img/image\1\\(1\).svg);
+    
   }
+
   .more {
     position: absolute;
     width: 149px;
@@ -591,7 +594,7 @@ top: 0px; */
     margin-left: 20px;
     margin-top: 20px;
 
-    background: url(img/image\ 1\ \(2\).svg);}
+    background: url(img/image\ 3.svg);}
   /* fotter rules */
   .footer-wrp {
     position: absolute;
@@ -1302,7 +1305,7 @@ top: 0px; */
     margin-left: 20px;
     margin-top: 20px;
 
-    background: url(img/image\1\\(1\).svg);
+    background: url(img/image\ 2.svg);
   }
   .more {
     position: absolute;
@@ -1359,7 +1362,7 @@ box-sizing: border-box;
     margin-left: 20px;
     margin-top: 20px;
 
-    background: url(img/image\1\\(2\).svg);
+    background: url(img/image\ 3.svg);
   }
   /* fotter rules */
   .footer-wrp {
