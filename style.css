@@ -14,7 +14,7 @@
   font-weight: 400;
 }
 /* main rules */
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 541px) {
   .container {
     width: 1196px;
     margin: 0 auto;
@@ -761,7 +761,8 @@ top: 0px; */
   }
 }
   
-@media screen and (max-width: 320px) { 
+@media screen and (max-width: 540px) { 
+
   .container {
     width: 272 px;
     margin: 0 auto;
@@ -809,8 +810,7 @@ top: 0px; */
   } 
    .form {
     height: 29px;
-    width: fit-content;
-
+    margin-top: 6px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -824,7 +824,7 @@ top: 0px; */
   .position {
     height: 29px;
     width:fit-content;
-
+    margin-top: 16px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -842,14 +842,12 @@ top: 0px; */
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-    display: flex;
-    justify-content: space-between;
 
     color: #a3a6a9;
   }
   .light-rub {
     height: 29px;
-    width: fit-content;
+    width: 272px;
 
     font-family: Rubik;
     font-style: normal;
@@ -863,6 +861,7 @@ top: 0px; */
   .triangle {
     width: 22px;
     height: 12px;
+    padding-left: 150px;
   }
 
   .light-rub.ns::after {
@@ -871,7 +870,7 @@ top: 0px; */
     width: 272px;
     height: 1px;
     background-color: black;
-    
+
   }
   .light-rub::after {
     content: "";
@@ -931,7 +930,7 @@ top: 0px; */
   .vacance-header {
     position: absolute;
     width: 241px;
-    height: 70px;
+    height: fit-content;
     left: 20px;
     top: 272px;
 
@@ -1012,7 +1011,7 @@ top: 0px; */
   }
   .Type-of-work {
     position: absolute;
-    width: 301px;
+    width: 180px;
     height: 22px;
     left: 68px;
     top: 117px;
@@ -1028,7 +1027,7 @@ top: 0px; */
   }
   .Company-name {
     position: absolute;
-    width: 360px;
+    width: 160px;
     height: 22px;
     left: 100px;
     top: 156px;
@@ -1044,7 +1043,7 @@ top: 0px; */
   }
   .Web-name {
     position: absolute;
-    width: 399px;
+    width: 180px;
     height: 22px;
     left: 61px;
     top: 195px;
@@ -1060,7 +1059,7 @@ top: 0px; */
   }
   .Company-adress {
     position: absolute;
-    width: 162px;
+    width: 180px;
     height: 22px;
     left: 90px;
     top: 234px;
@@ -1092,7 +1091,7 @@ top: 0px; */
   }
   .snapshot {
     position: absolute;
-    width: 487px;
+    width: 241px;
     height: 22px;
     left: 20px;
     top: 572px;
@@ -1268,6 +1267,56 @@ height: 59px;
 
     background: url(img/image\ 2.img);
   }
+  .vacance-need.two{
+    position: absolute;
+width: 241px;
+height: 198px;
+left: 20px;
+top: 393px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+  }
+  .snapshot.two{
+    position: absolute;
+left: 20px;
+top: 607px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+  }
+  .develope.two{
+    position: absolute;
+width: 229px;
+height: 44px;
+left: 32px;
+top: 637px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+
+  }
   .more {
     position: absolute;
     width: 149px;
@@ -1334,11 +1383,9 @@ top: 3278px;
 
   }
   .req {
-    position: absolute;
 width: 237px;
 height: 38px;
-left: 25px;
-top: 3278px;
+
 
 font-family: Rubik;
 font-style: normal;
@@ -1376,7 +1423,7 @@ height: 544px;
   .light-rub-mod::after {
     content: "";
     display: block;
-    width: 438px;
+    width: 272px;
     height: 1px;
     background-color: black;
     left: 0%;
@@ -1408,12 +1455,12 @@ height: 48px;
     color: white;
   }
   .aside {
-    width: 452px;
+    width: 272px;
 height: 289px;
 margin-top: 32px;
   }
   .advise {
-width: 271px;
+width: 272px;
 height: 59px;
 
 font-family: Rubik;
@@ -1443,7 +1490,7 @@ color: #000000;
     color: #000000;
   }
   .mail-scale {
-    width: 451px;
+    width: 272px;
     height: 45px;
 
     margin-bottom: 78px;
@@ -1457,7 +1504,7 @@ color: #000000;
     color: #000000;
   }
   .place {
-    width: 390px;
+    width: 272px;
 height: 58px;
 
     margin-bottom: -6px;
@@ -1483,7 +1530,7 @@ line-height: 160%;
 
     color: #000000;
   }
-.closely.hiden{
+.hiden{
   display: none;
 }
 } 
