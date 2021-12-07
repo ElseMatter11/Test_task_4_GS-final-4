@@ -809,6 +809,7 @@ top: 0px; */
   } 
    .form {
     height: 29px;
+    width: fit-content;
 
     font-family: Rubik;
     font-style: normal;
@@ -822,6 +823,7 @@ top: 0px; */
 
   .position {
     height: 29px;
+    width:fit-content;
 
     font-family: Rubik;
     font-style: normal;
@@ -834,6 +836,7 @@ top: 0px; */
   }
   .light-rub.ns {
     height: 29px;
+    width: fit-content;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -846,6 +849,7 @@ top: 0px; */
   }
   .light-rub {
     height: 29px;
+    width: fit-content;
 
     font-family: Rubik;
     font-style: normal;
@@ -867,9 +871,7 @@ top: 0px; */
     width: 272px;
     height: 1px;
     background-color: black;
-    position: absolute;
-    left: 0%;
-    margin: 7px 0;
+    
   }
   .light-rub::after {
     content: "";
@@ -877,8 +879,6 @@ top: 0px; */
     width: 272px;
     height: 1px;
     background-color: black;
-    left: 0%;
-    margin: 7px 0;
   }
 
   .clear {
