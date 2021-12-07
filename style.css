@@ -191,7 +191,6 @@ top: 0px; */
     top: 0px;
     margin-left: 20px;
     margin-top: 20px;
-    background: url(img/image\ 1.svg);
   }
   .vacance-header {
     position: absolute;
@@ -532,13 +531,13 @@ top: 0px; */
     height: 95px;
     left: 0px;
     top: 0px;
-    background: url(img/image\ 2.svg);
     
     margin-left: 20px;
     margin-top: 20px;
 
     
   }
+  
 
   .more {
     position: absolute;
@@ -594,8 +593,7 @@ top: 0px; */
     top: 0px;
     margin-left: 20px;
     margin-top: 20px;
-
-    background: url(img/image\ 3.svg);}
+}
   /* fotter rules */
   .footer-wrp {
     position: absolute;
@@ -762,7 +760,7 @@ top: 0px; */
     color: #000000;
   }
 }
-/*  
+  
 @media screen and (max-width: 320px) { 
   .container {
     width: 272 px;
@@ -771,9 +769,8 @@ top: 0px; */
   body {
     background-color: #fff;
     display: block;
-   } */
-  /* heder */
-  /* .list-of-vac { 
+   } 
+  .list-of-vac { 
     position: absolute;
     width: 249px;
     height: 38px;
@@ -807,17 +804,11 @@ top: 0px; */
     background: #ffffff;
     display: block;
   }
-  /* .form-wrp {
-    display: block;
-    padding-top: ;
-    :6px ;
-  } */
-  /* .form {
-    position: absolute;
+  .form-wrp {
+    display: block; 
+  } 
+   .form {
     height: 29px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
 
     font-family: Rubik;
     font-style: normal;
@@ -830,11 +821,7 @@ top: 0px; */
   }
 
   .position {
-    position: absolute;
     height: 29px;
-    left: 0px;
-    right: -196px;
-    top: 0px;
 
     font-family: Rubik;
     font-style: normal;
@@ -846,18 +833,14 @@ top: 0px; */
     color: #000000;
   }
   .light-rub.ns {
-    position: absolute;
     height: 29px;
-    left: 0px;
-    right: 45px;
-    top: 30px;
-
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-  
+    display: flex;
+    justify-content: space-between;
 
     color: #a3a6a9;
   }
@@ -874,11 +857,8 @@ top: 0px; */
     color: #a3a6a9;
   }
   .triangle {
-    position: absolute;
     width: 22px;
     height: 12px;
-    left: 0px;
-    top: 17px;
   }
 
   .light-rub.ns::after {
@@ -1224,6 +1204,10 @@ top: 0px; */
 
     color: #000000;
   }
+  .logo-style{
+    width: 232px;
+height: 59px;
+  }
   .proud-p {
     position: absolute;
     width: 229px;
@@ -1502,4 +1486,4 @@ line-height: 160%;
 .closely.hiden{
   display: none;
 }
-} */
+} 
